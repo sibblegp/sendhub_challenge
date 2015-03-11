@@ -84,7 +84,6 @@ def determine_ips_for_routes(numbers):
             )
         elif len(number_set) == 1:
             one_server_count += 1
-            print one_server_count
             ip_set.append(
                 {'ip': '10.0.1.' + str(one_server_count),
                  'recipients': number_set}
